@@ -1,0 +1,137 @@
+{
+	"id": "5de03863-fdf1-4179-89e1-1e6bf30d4b1a",
+	"name": "0929_text",
+	"allTests": [],
+	"timestamp": "2019-09-29T03:52:54.311Z",
+	"collection_id": "81d4492a-443d-413e-ad93-ecaf12f93dc8",
+	"folder_id": 0,
+	"target_type": "collection",
+	"environment_id": "0",
+	"data": [],
+	"delay": 0,
+	"count": 1,
+	"collection": {
+		"id": "81d4492a-443d-413e-ad93-ecaf12f93dc8",
+		"name": "0929_text",
+		"description": "",
+		"auth": null,
+		"events": null,
+		"variables": [],
+		"order": [],
+		"folders_order": [
+			"ab426d47-5240-45aa-b5cd-0489a1ec3ff3"
+		],
+		"owner": "0",
+		"favorite": false,
+		"protocolProfileBehavior": {}
+	},
+	"folder": null,
+	"environment": null,
+	"globals": [
+		{
+			"key": "variable_key",
+			"value": "",
+			"enabled": true
+		},
+		{
+			"key": "city",
+			"value": "",
+			"enabled": true
+		},
+		{
+			"key": "login",
+			"value": "",
+			"enabled": true
+		},
+		{
+			"key": "id",
+			"value": "",
+			"enabled": true
+		},
+		{
+			"key": "id1",
+			"value": "",
+			"enabled": true
+		},
+		{
+			"key": "id_1",
+			"value": "",
+			"enabled": true
+		},
+		{
+			"key": "longin",
+			"value": "",
+			"enabled": true
+		}
+	],
+	"results": [
+		{
+			"name": "登录",
+			"id": "0fe9a78d-0a88-467b-b076-9b9ac8ed8291",
+			"url": "http://182.92.81.159/api/sys/login",
+			"totalTime": 0,
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"tests": {
+				"操作成功": true
+			},
+			"testPassFailCounts": {
+				"操作成功": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				"30"
+			],
+			"allTests": [
+				{
+					"操作成功": true
+				}
+			],
+			"time": "30",
+			"totalRequestTime": "30",
+			"iterationResults": {}
+		}
+	],
+	"totalPass": 1,
+	"totalFail": 0,
+	"totalTime": 30,
+	"lifecycle": "done",
+	"requests": [
+		{
+			"name": "登录",
+			"id": "0fe9a78d-0a88-467b-b076-9b9ac8ed8291",
+			"url": "http://182.92.81.159/api/sys/login",
+			"time": "2019-09-29T03:52:54.311Z",
+			"responseCode": {
+				"code": 200,
+				"name": "OK",
+				"detail": {
+					"name": "OK",
+					"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+				}
+			},
+			"testPassFailCounts": {
+				"操作成功": {
+					"pass": 1,
+					"fail": 0
+				}
+			}
+		},
+		{
+			"name": "添加",
+			"id": "047d810a-d07b-4f0b-8960-45784a2e352c",
+			"url": "http://182.92.81.159/api/sys/user",
+			"time": "2019-09-29T03:52:54.311Z",
+			"testPassFailCounts": {}
+		}
+	],
+	"synced": false
+}
